@@ -1,3 +1,128 @@
+# Dia 15 - Primeiro projeto com React
+
+Data: Jul 25, 2020
+Hora de início: 14:30
+Hora de término: 14:56
+Status: Finalizado
+
+Continuando as aulas
+
+# Criando projeto
+
+Vamos iniciar com uma ferramenta chamada `CRA`, ou mais conhecida como `Create React App`, é uma feeramenta que cria um boilerplate, ou seja um step inicial com tudo pré-configurado pra você, não é necessário que você tenha essa ferramente instalada na sua máquina, basta você ter o `Node` na versão `LTS` que ele vem uma ferramenta muito dahora chamada `NPX`, com o `NPX` você consegue executar a `CLI` do `CRA` utilizando o exemplo abaixo:
+
+```bash
+npx create-react-app My-New-App --template=typescript
+```
+
+> Como vamos utilizar typescript utilizei a flag `--template` passando o template de `typescript`.
+
+Esta é a estrutura gerada pelo CRA:
+
+```bash
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src
+│   ├── App.css
+│   ├── App.test.tsx
+│   ├── App.tsx
+│   ├── index.css
+│   ├── index.tsx
+│   ├── logo.svg
+│   ├── react-app-env.d.ts
+│   ├── serviceWorker.ts
+│   └── setupTests.ts
+├── .gitignore
+├── package.json
+├── README.md
+├── tsconfig.json
+└── yarn.lock
+```
+
+Agora eu vou sublinhar em vermelho neste esquema acima quais arquivos vou apagar e de verde quais arquivos vou modificar, e logo abaixo vai estar o código de cada um modificado.
+
+```bash
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src
+│   ├── App.css
+│   ├── App.test.tsx
+│   ├── App.tsx
+│   ├── index.css
+│   ├── index.tsx
+│   ├── logo.svg
+│   ├── react-app-env.d.ts
+│   ├── serviceWorker.ts
+│   └── setupTests.ts
+├── .gitignore
+├── package.json
+├── README.md
+├── tsconfig.json
+└── yarn.lock
+```
+
+```html
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#3a3a3a" />
+    <title>Github_explorer</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+```
+
+```tsx
+// src/App.tsx
+
+import React from 'react';
+
+const App: React.FC = () => <h1>Olá Mundo</h1>;
+
+export default App;
+```
+
+```tsx
+// index.tsx
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root'),
+);
+```
+
+Agora, vá no terminal e execute o comando abaixo para dar inicio:
+
+```bash
+yarn start
+```
+
+Agora, segue abaixo 2 links de referências para configuração do ESLint.
+
+- [Eslint](https://www.notion.so/Padr-es-de-projeto-com-ESLint-Prettier-e-EditorConfig-0b57b47a24724c859c0cf226aa0cc3a7)
+
 # Dia 16 - Primeiro projeto com React
 
 Data: Aug 11, 2020
