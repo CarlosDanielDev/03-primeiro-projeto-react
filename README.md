@@ -40,30 +40,7 @@ Esta é a estrutura gerada pelo CRA:
 
 Agora eu vou sublinhar em vermelho neste esquema acima quais arquivos vou apagar e de verde quais arquivos vou modificar, e logo abaixo vai estar o código de cada um modificado.
 
-```bash
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
-│   ├── manifest.json
-│   └── robots.txt
-├── src
-│   ├── App.css
-│   ├── App.test.tsx
-│   ├── App.tsx
-│   ├── index.css
-│   ├── index.tsx
-│   ├── logo.svg
-│   ├── react-app-env.d.ts
-│   ├── serviceWorker.ts
-│   └── setupTests.ts
-├── .gitignore
-├── package.json
-├── README.md
-├── tsconfig.json
-└── yarn.lock
-```
+![img](https://i.imgur.com/MGz8vpn.png)
 
 ```html
 <!-- public/index.html -->
