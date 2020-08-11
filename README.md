@@ -1,11 +1,5 @@
 # Dia 15 - Primeiro projeto com React
 
-Data: Jul 25, 2020
-Hora de início: 14:30
-Hora de término: 14:56
-Status: Finalizado
-
-Continuando as aulas
 
 # Criando projeto
 
