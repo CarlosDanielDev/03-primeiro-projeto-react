@@ -119,18 +119,9 @@ Agora, vá no terminal e execute o comando abaixo para dar inicio:
 yarn start
 ```
 
-Agora, segue abaixo 2 links de referências para configuração do ESLint.
+Agora, segue abaixo 1 link de referência para configuração do ESLint.
 
 - [Eslint](https://www.notion.so/Padr-es-de-projeto-com-ESLint-Prettier-e-EditorConfig-0b57b47a24724c859c0cf226aa0cc3a7)
-
-# Dia 16 - Primeiro projeto com React
-
-Data: Aug 11, 2020
-Hora de início: 14:57
-Hora de término: 0:12
-Status: Finalizado
-
-Continuando as aulas
 
 # Criando Rotas
 
